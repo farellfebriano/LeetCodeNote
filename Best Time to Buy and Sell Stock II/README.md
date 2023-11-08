@@ -33,5 +33,5 @@ Output: 0
 Explanation: There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
 
 ## How the algorythm works visually
-![View Design](../assets/Best-Time-to-Buy-and-Sell-Stock-II.png)
+![View Design](./assets/Best-Time-to-Buy-and-Sell-Stock-II.png)
 )
