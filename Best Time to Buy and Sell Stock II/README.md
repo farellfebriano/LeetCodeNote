@@ -34,4 +34,3 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 
 ## How the algorythm works visually
 ![View Design](./assets/Best-Time-to-Buy-and-Sell-Stock-II.png)
-)
