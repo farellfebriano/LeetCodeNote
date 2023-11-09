@@ -20,3 +20,11 @@ Output: [3,99,-1,-100]<br>
 Explanation:<br>
 rotate 1 steps to the right: [99,-1,-100,3]<br>
 rotate 2 steps to the right: [3,99,-1,-100]<br>
+
+## Complexity
+
+[Time] Complexity O(n)
+- since, it only iterate the array once 
+
+[Space] Complexity O(1)
+- since, it dosent add more memory 
