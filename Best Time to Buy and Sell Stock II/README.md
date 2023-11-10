@@ -33,13 +33,15 @@ Output: 0
 Explanation: There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
 
 ## How the algorythm works visually
+
 ![View Design](assets/Best-Time-to-Buy-and-Sell-Stock-II.png)
 
 ## Complexity
 
 [Time] Complexity O(n)
-- since, it only iterate the array once 
+
+- since, it only iterate the array once
 
 [Space] Complexity O(1)
-- since, it dosent add more memory 
 
+- since, it dosent add more memory
