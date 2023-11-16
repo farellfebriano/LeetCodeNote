@@ -16,10 +16,30 @@ Output: 321<br>
 Input: x = -123<br>
 Output: -321<br>
 
-## Example 2
+## Example 3
 
 Input: x = 120<br>
 Output: 21<br>
+
+## CODE
+
+```javascript
+var reverse = function (x) {
+  let sum = 0;
+  // if the number is not zero keep the loop going
+  while (x != 0) {
+    //add the sum with 10 and add ( x % 10 )
+    sum = sum * 10 + (x % 10);
+    //minus the number with ( x % 10 ) and divide it with 10
+    x = (x - (x % 10)) / 10;
+  }
+  // the edge cases for the 32 digits number
+  if (sum > 2 ** 31 || sum < -(2 ** 31)) {
+    return 0;
+  }
+  return sum;
+};
+```
 
 ## Complexity
 
