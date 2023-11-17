@@ -25,6 +25,8 @@ Output: [0]
 
 ## CODE
 
+fghj
+
 ```javascript
 var mergeTwoLists = function (list1, list2) {
   const dummy = new ListNode();
