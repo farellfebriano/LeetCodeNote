@@ -43,14 +43,43 @@ var hasCycle = function (head) {
 
 <h3> --Complexity-- </h3>
 
-[Time] Complexity O(n)
+Time Complexity O(n)
 
 - since, it only iterate the array once
 
-[Space] Complexity O(N)
+Space Complexity O(n)
 
 - since, it dosent add more memory
 
 ---
 
-Better idea
+## Better idea
+
+in this approach we want to decrease the memory into o(1) whith using fast and slow pointer. With using the fast and slow pointer we can know is the linklist has a cycle or not
+
+<h3> --The Code--</h3>
+
+```javascript
+var hasCycle = function (head) {
+  let slow = head;
+  let fast = head;
+  while (fast) {
+    slow = slow.next;
+    fast = fast.next?.next;
+    if (slow === fast) {
+      return true;
+    }
+  }
+  return false;
+};
+```
+
+<h3> --Complexity-- </h3>
+
+Time Complexity O(n)
+
+- since, it only iterate the array once
+
+Space Complexity O(1)
+
+- since, it dosent add more memory
