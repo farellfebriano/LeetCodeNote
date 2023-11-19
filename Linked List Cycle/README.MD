@@ -24,7 +24,7 @@ Explanation: There is a cycle in the linked list, where the tail connects to the
 
 the the first tought is to create a object or dictionary that will store all the value that is alreadu occured once. However this technique will create a problem when there are two or more same value. Hence we need to use `MAP`. With using `MAP` we can use the object itself as a key to. So when an object is show twice it will call the `MAP` and return false
 
-<h3> The Code</h3>
+<h3> --The Code--</h3>
 
 ```javascript
 var hasCycle = function (head) {
@@ -41,7 +41,7 @@ var hasCycle = function (head) {
 };
 ```
 
-<h3> ## Complexity </h3>
+<h3> --Complexity-- </h3>
 
 [Time] Complexity O(n)
 
@@ -53,4 +53,4 @@ var hasCycle = function (head) {
 
 ---
 
-## Better idea
+Better idea
