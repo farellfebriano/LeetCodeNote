@@ -33,7 +33,7 @@ var reverse = function (x) {
     //minus the number with ( x % 10 ) and divide it with 10
     x = (x - (x % 10)) / 10;
   }
-  // the edge cases for the 32 digits number
+  // the edgex cases for the 32 digits number
   if (sum > 2 ** 31 || sum < -(2 ** 31)) {
     return 0;
   }
