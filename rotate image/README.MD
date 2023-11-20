@@ -56,10 +56,10 @@ var rotate = function (matrix) {
 
 ## Complexity
 
-[Time] Complexity O(n)
+[Time] Complexity O(n^2)
 
 - since, it only iterate the array once
 
-[Space] Complexity O(n)
+[Space] Complexity O(n^2)
 
 - since, it dosent add more memory
