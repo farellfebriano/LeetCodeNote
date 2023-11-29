@@ -21,6 +21,8 @@ Output: 5<br>
 Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.<br>
 Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.<br>
 
+## Code
+
 ```javascript
 var maxProfit = function (prices) {
   let pointer1 = 0; // pointer that stays and only moves if pointer2 values smaller than pointer1 values
