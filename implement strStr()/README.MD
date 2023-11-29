@@ -42,5 +42,3 @@ Time Complexity O(n)
 Space Complexity O(1)
 
 - since, it dosent add more memory
-
----
