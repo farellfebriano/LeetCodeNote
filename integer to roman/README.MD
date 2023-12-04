@@ -78,6 +78,6 @@ Time Complexity O(n)
 
 - since, it only iterate the array once
 
-Space Complexity O(1)
+Space Complexity O(n)
 
 - since, it dosent add more memory
