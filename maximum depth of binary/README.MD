@@ -36,3 +36,36 @@ Output: 2
 ### Code Visualy
 
 ![View Design](assets/max-with-recursion.png)
+
+---
+
+## BDS
+
+NOTE<br>
+in this approach we use additional loop inside while loop to figure the which level are we in.
+
+```javaScript
+var maxDepth = function(root) {
+    while(queue.length!=0){
+        /* variable "q" is used for the memory so
+        then when it dosent add  when the
+        another node get pushed
+        */
+        let q = queue.length
+        // loop only for the first level
+        for(let i = 0;i<q.length;i++ ){
+            // get the current node and also put out from the node
+            let currNode = queue.shift()
+            if(currNode.left){
+                queue.push(currNode.left)
+            }
+            if(currNode.right){
+                queue.push(currNode.right)
+            }
+        }
+        // add the level evertime while loop restart
+        level++
+    }
+    return level
+}
+```
