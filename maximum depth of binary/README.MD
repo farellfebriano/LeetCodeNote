@@ -69,3 +69,26 @@ var maxDepth = function(root) {
     return level
 }
 ```
+
+## ITERATIVE DFS
+
+```javaScript
+var maxDepth = function(root) {
+    //edge cases
+    if(root===null){
+        return 0
+    }
+
+    let stack=[[root,1]], res=1
+    while(stack.length!==0){
+        const data=stack.pop(), node=data[0], depth=data[1]
+        if(node!== null){
+            res=Math.max(res,depth)
+            stack.push([node.right,depth+1])
+            stack.push([node.left,depth+1])
+        }
+    }
+    return res
+};
+}
+```
