@@ -61,4 +61,4 @@ var numJewelsInStones = function (jewels, stones) {
 
 ## NOTE
 
-When using includes method, use the
+When using includes method, use the want that is we ttying to find as an object of the method and the value where we want to find it as a parameter in the function
